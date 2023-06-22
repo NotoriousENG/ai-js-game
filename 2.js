@@ -137,8 +137,6 @@ function updateGameArea() {
     // Check for collision
     if (isCollision(player, enemy)) {
         gameOver = true;
-        const messageElement = document.getElementById('message');
-        messageElement.innerHTML = 'Game over! Your score: ' + score;
         score = 0;
         gameOver = false;
         enemy.x = 0;
