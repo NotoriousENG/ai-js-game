@@ -1,3 +1,5 @@
+// this is https://www.w3schools.com/graphics/game_intro.asp but modified for keyboard controls
+
 var myGamePiece;
 var myObstacles = [];
 var myScore;
